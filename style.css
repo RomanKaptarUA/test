@@ -82,3 +82,43 @@ img{
     right: 30px;
     bottom: 30px;
 }
+
+.containera{
+    position: relative;
+}
+
+.boxa{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 100px;
+    border-radius: 8px;
+}
+
+.boxa:nth-child(1){
+    background-color: skyblue;
+    z-index: 3;
+    top: 150px;
+    left: 50px;
+}
+
+.boxa:nth-child(2){
+    background-color: yellow;
+    z-index: 2;
+    top: 80px;
+    left: 203px;
+}
+
+.boxa:nth-child(3){
+    background-color: pink;
+    top: 140px;
+    left: 20px;
+}
+
+.boxa:nth-child(4){
+    background-color: orange;
+    z-index: -1;
+}
