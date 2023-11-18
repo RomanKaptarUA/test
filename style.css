@@ -194,13 +194,13 @@ img{
     display: flex;
 }
 
-.menu-item{
+/* .menu-item{
     outline: 1px solid grey;
     margin-right: 30px;
     position: relative;
-}
+} */
 
-.menu-link{
+/* .menu-link{
     cursor: pointer;
     background-color: skyblue;
     padding: 10px 20px;
@@ -209,9 +209,9 @@ img{
     color: black;
     font-style: 18px;
     font-weight: 700;
-}
+} */
 
-.submenu{
+/* .submenu{
     position: absolute;
     display: none;
     width: 100%;
@@ -221,13 +221,13 @@ img{
     padding: 15px;
     margin: 0;
     background-color: #ccc;
-}
+} */
 
-.menu-item:hover .submenu{
+/* .menu-item:hover .submenu{
     display: block;
-}
+} */
 
-.page-header{
+/* .page-header{
     position: fixed;
     top: 0;
     left: 0;
@@ -237,16 +237,44 @@ img{
     padding-left: 50px;
     width: 100%;
     outline: 2px solid;
+} */
+
+.menu-item{
+    position: relative;
+    margin-bottom: 10000px;
 }
 
-.one{
-    background-color: blue;
+.menu-link{
+    background-color: gray;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding: 50px 20px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
 }
 
-.two{
-    background-color: aqua;
+.sub-menu{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    background-color: gray;
+    transform: translateX(-120%);
+    transition: transform 500ms ease-in-out;
 }
 
-.three{
-    background-color: blueviolet;
+.menu-item:hover .sub-menu{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-link:hover{
+    margin-left: -10000px;
 }
