@@ -1,4 +1,4 @@
-html{
+/* html{
     scroll-behavior: smooth;
 }
 
@@ -8,7 +8,7 @@ html{
 
 body{
     padding-top: 100px;
-}
+} */
 
 /* img{
     display: block;
@@ -37,9 +37,9 @@ body{
 } */
 
 
-.box:hover .overlay{
+/* .box:hover .overlay{
  transform: translateY(0);
-}
+} */
 
 
 /* .text{
@@ -297,12 +297,12 @@ img{
     margin-left: -10000px;
 } */
 
-.ptnpth{
+/* .ptnpth{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    border: 1px solid black;
+    height: 100vh; */
+    /* border: 1px solid black;
 }
 
 .ptnpth:hover .circle{
@@ -340,4 +340,25 @@ img{
     font-weight: 700;
     font-size: 20px;
     transition-duration: 3000ms;
+} */
+
+.container{
+    height: 300px;
+    width: 500px;
+    background-color: lightcoral;
+    border: 2px solid palevioletred;
+    border-radius: 20%;
+    position: relative;
+}
+
+.wrap{
+    height: 150px;
+    width: 100px;
+    background-color: aqua;
+    border: 5px solid blue;
+    border-radius: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
 }
