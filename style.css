@@ -6,9 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
-    padding-top: 100px;
-} */
+
 
 /* img{
     display: block;
@@ -414,5 +412,52 @@ img{
 .btn:hover::after{
     transform: translateY(-50%);
 }
+body{
+    background-color: blue;
+    margin: 0 auto;
+    width: 1200px;
+}
 
-.btn
+.box{
+    width: 35%;
+    padding: 30px;
+    border: 2px solid white;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.item{
+    width: 45%;
+    border: 5px solid white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    color: wheat;
+}
+
+img{
+    width: 100%;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.img{
+    width: 300px;
+    margin-right: 20px;
+}
+
+.text{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+}
