@@ -461,3 +461,31 @@ img{
     font-size: 20px;
     font-weight: 700;
 }
+
+#div-one{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-left: 100px;
+  border: 1px solid blue;
+  perspective: 100px;
+}
+
+#div-two, 
+#div-four{
+    padding: 50px;
+    border: 1px solid yellow;
+    background-color: aquamarine;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+}
+
+#div-three{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin-left: 100px;
+        border: 1px solid lightcoral;
+        perspective: 200px;
+    }
