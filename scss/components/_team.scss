@@ -1,22 +1,85 @@
+// .team{
+//     background-color: bisque;
+//     padding-top: 50px;
+//     padding-bottom: 50px;
+
+//     &:hover{
+//         background-color: azure;
+//     }
+
+//     &__title{
+//         color: royalblue;
+//     }
+
+// }
+
+// .team__list{
+
+// }
+
+// .team__item{
+
+// }
+
 .team{
-    background-color: bisque;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: yellow;
+}
+
+.team__title{
+    // text-align: center;
+    font-size: 28px;
+    color: orange;
 
     &:hover{
-        background-color: azure;
+        color: blue;
+        cursor: pointer;
     }
-
-    &__title{
-        color: royalblue;
-    }
-
 }
 
 .team__list{
-
+    margin-top: 20px;
+    @include flexbox;
 }
 
 .team__item{
-
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    border: 1px dashed gray;
+    font-size: 22px;
+    font-weight: 700;
+    @include flex;
 }
+
+// .button{
+//     padding: 15px 50px;
+//     border-radius: 20px;
+//     font-size: 40px;
+//     font-weight: 700;
+//     margin-right: 40px;
+//     cursor: pointer;
+// }
+
+// .button-one{
+// @extend .button;
+// background-color: pink;
+// }
+
+// .button-two{
+// @extend .button;
+// background-color: yellow;
+// // }
+
+
+
+// .button-one{
+//     @extend %button;
+//     background-color: pink;
+// }
+
+// .button-two{
+//     @extend %button;
+//     background-color: skyblue;
+// }
